@@ -32,6 +32,9 @@ proguard/
 
 # Android Studio Navigation editor temp files
 .navigation/
+build/
+.vscode/
+.dart_tool/
 
 # Android Studio captures folder
 captures/

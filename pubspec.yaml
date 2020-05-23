@@ -24,7 +24,8 @@ dependencies:
   flutter:
     sdk: flutter
   dio: ^3.0.0
-
+  flutter_swiper : ^1.1.6
+  pull_to_refresh: ^1.5.7
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -49,9 +50,12 @@ flutter:
 
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - images/
+    # - images/ic_nav_homepage.png
+    # - images/ic_nav_scan.png
+    # - images/ic_nav_about.png
+    # - images/ic_nav_exit.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
